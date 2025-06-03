@@ -19,7 +19,7 @@ A KDE Plasma 6 widget that integrates Google Keep directly into your desktop for
 ```bash
 # Clone the repository
 git clone https://github.com/LoneWolf728/Google-Keep-Plasmoid-for-KDE-Plasma-6.git
-cd google-keep-plasmoid-for-kde-plasma-6
+cd Google-Keep-Plasmoid-for-KDE-Plasma-6
 
 # Install the widget
 kpackagetool6 --type=Plasma/Applet --install package --packageroot ~/.local/share/plasma/plasmoids/
@@ -35,7 +35,7 @@ kquitapp6 plasmashell && kstart plasmashell
 ```bash
 # Clone and navigate to the project
 git clone https://github.com/LoneWolf728/Google-Keep-Plasmoid-for-KDE-Plasma-6.git
-cd google-keep-plasmoid-for-kde-plasma-6
+cd Google-Keep-Plasmoid-for-KDE-Plasma-6
 
 # Create build directory
 mkdir build && cd build
