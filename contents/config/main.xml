@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <group name="General">
+        <entry name="loadOnStartup" type="Bool">
+            <label>Load Google Keep automatically when plasmoid is added</label>
+            <default>false</default>
+        </entry>
+        <entry name="hideHeader" type="Bool">
+            <label>Hide the navigation header completely</label>
+            <default>false</default>
+        </entry>
+        <entry name="autoHideHeader" type="Bool">
+            <label>Automatically hide the navigation header when not in use</label>
+            <default>true</default>
+        </entry>
+        <entry name="useDefaultLightIcon" type="Bool">
+            <label>Use light theme icon</label>
+            <default>false</default>
+        </entry>
+        <entry name="useDefaultDarkIcon" type="Bool">
+            <label>Use dark theme icon</label>
+            <default>false</default>
+        </entry>
+        <entry name="useFavicon" type="Bool">
+            <label>Use website favicon as icon</label>
+            <default>false</default>
+        </entry>
+        <entry name="favIcon" type="String">
+            <label>Custom favicon URL</label>
+            <default></default>
+        </entry>
+        <entry name="lastFavIcon" type="String">
+            <label>Last used favicon URL</label>
+            <default></default>
+        </entry>
+        <entry name="zoomFactor" type="Double">
+            <label>Web view zoom factor</label>
+            <default>1.0</default>
+        </entry>
+    </group>
+</kcfg>

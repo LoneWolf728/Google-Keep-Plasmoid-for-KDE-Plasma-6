@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "dineth.sewwanda@protonmail.com",
+                "Name": "Lykos"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Google Keep Web Access Plasmoid",
+        "EnabledByDefault": true,
+        "Icon": "org.kde.plasma.googlekeep",
+        "Id": "org.kde.plasma.googlekeep",
+        "License": "MIT",
+        "Name": "Google Keep",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-KDE-PluginInfo-Category": "Utilities"
+}
