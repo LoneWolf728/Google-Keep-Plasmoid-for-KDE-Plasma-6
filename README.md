@@ -136,7 +136,6 @@ Contributions are welcome! This being my first plasmoid, Let me hear your sugges
 ## 🐛 Known Issues
 
 - Initial load may take a few seconds (QtWebEngine startup)
-- Requires internet connection for full functionality
 
 ## 📝 Changelog
 
